@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/taskListFragment">
+
+    <fragment
+        android:id="@+id/taskListFragment"
+        android:name="com.example.tasktracker.TaskListFragment"
+        android:label="Задачи">
+        <action
+            android:id="@+id/action_taskListFragment_to_addTaskFragment"
+            app:destination="@id/addTaskFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/calendarFragment"
+        android:name="com.example.tasktracker.CalendarFragment"
+        android:label="Календарь" />
+
+    <fragment
+        android:id="@+id/statsFragment"
+        android:name="com.example.tasktracker.StatsFragment"
+        android:label="Статистика" />
+
+    <fragment
+        android:id="@+id/archivedTasksFragment"
+        android:name="com.example.tasktracker.ArchivedTasksFragment"
+        android:label="Архив" />
+
+    <fragment
+        android:id="@+id/addTaskFragment"
+        android:name="com.example.tasktracker.AddTaskFragment"
+        android:label="Новая задача" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.tasktracker.SettingsFragment"
+        android:label="Настройки" />
+</navigation>

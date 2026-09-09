@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/taskListFragment"
+        android:title="Задачи"
+        android:icon="@android:drawable/ic_menu_agenda" />
+    <item
+        android:id="@+id/calendarFragment"
+        android:title="Календарь"
+        android:icon="@android:drawable/ic_menu_today" />
+    <item
+        android:id="@+id/statsFragment"
+        android:title="Статистика"
+        android:icon="@android:drawable/ic_menu_view" />
+    <item
+        android:id="@+id/archivedTasksFragment"
+        android:title="Архив"
+        android:icon="@android:drawable/ic_menu_save" />
+
+    <item
+        android:id="@+id/settingsFragment"
+        android:title="Настройки"
+        android:icon="@android:drawable/ic_menu_preferences" />
+</menu>
